@@ -1,2 +1,6 @@
 "use strict";
-module.exports = { Post: require("./post") };
+module.exports = {
+  Post: require("./post"),
+  User: require("./user"),
+  Comment: require("./comment"),
+};
